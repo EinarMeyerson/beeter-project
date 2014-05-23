@@ -1,4 +1,4 @@
-package edu.upc.eetac.dsa.jgordo.beeter.api.model;
+package edu.upc.eetac.dsa.emeyerson.beeter.api.model;
 
 public class BeeterError {
 	private int status;

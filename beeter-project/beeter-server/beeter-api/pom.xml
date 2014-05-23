@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>edu.upc.eetac.dsa.jgordo</groupId>
+    <groupId>edu.upc.eetac.dsa.emeyerson</groupId>
     <artifactId>beeter-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>edu.upc.eetac.dsa.jgordo</groupId>
+  <groupId>edu.upc.eetac.dsa.emeyerson</groupId>
   <artifactId>beeter-api</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>

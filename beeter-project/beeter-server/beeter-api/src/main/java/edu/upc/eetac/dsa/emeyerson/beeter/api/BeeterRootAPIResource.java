@@ -1,9 +1,10 @@
-package edu.upc.eetac.dsa.jgordo.beeter.api;
+package edu.upc.eetac.dsa.emeyerson.beeter.api;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
  
-import edu.upc.eetac.dsa.jgordo.beeter.api.model.BeeterRootAPI;
+
+import edu.upc.eetac.dsa.emeyerson.beeter.api.model.BeeterRootAPI;
  
 @Path("/")
 public class BeeterRootAPIResource {

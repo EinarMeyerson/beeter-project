@@ -1,4 +1,4 @@
-package edu.upc.eetac.dsa.jgordo.beeter.api;
+package edu.upc.eetac.dsa.emeyerson.beeter.api;
 
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.Response;

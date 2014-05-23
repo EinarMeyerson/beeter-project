@@ -1,4 +1,4 @@
-package edu.upc.eetac.dsa.jgordo.beeter.api;
+package edu.upc.eetac.dsa.emeyerson.beeter.api;
 
 public interface MediaType {
 	public final static String BEETER_API_USER = "application/vnd.beeter.api.user+json";

@@ -1,4 +1,4 @@
-package edu.upc.eetac.dsa.jgordo.beeter.api;
+package edu.upc.eetac.dsa.emeyerson.beeter.api;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -24,9 +24,9 @@ import javax.ws.rs.core.Request;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
 
-import edu.upc.eetac.dsa.jgordo.beeter.api.model.Sting;
-import edu.upc.eetac.dsa.jgordo.beeter.api.model.StingCollection;
-import edu.upc.eetac.dsa.jgordo.beeter.api.model.User;
+import edu.upc.eetac.dsa.emeyerson.beeter.api.model.Sting;
+import edu.upc.eetac.dsa.emeyerson.beeter.api.model.StingCollection;
+import edu.upc.eetac.dsa.emeyerson.beeter.api.model.User;
 
 @Path("/user/{username}")
 public class UserResource {

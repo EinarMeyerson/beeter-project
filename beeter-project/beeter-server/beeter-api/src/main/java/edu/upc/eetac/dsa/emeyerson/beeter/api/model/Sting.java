@@ -1,16 +1,18 @@
-package edu.upc.eetac.dsa.jgordo.beeter.api.model;
+package edu.upc.eetac.dsa.emeyerson.beeter.api.model;
 
 import java.util.List;
 
 import javax.ws.rs.core.Link;
  
+
 import org.glassfish.jersey.linking.Binding;
 import org.glassfish.jersey.linking.InjectLink;
 import org.glassfish.jersey.linking.InjectLinks;
 import org.glassfish.jersey.linking.InjectLink.Style;
  
-import edu.upc.eetac.dsa.jgordo.beeter.api.MediaType;
-import edu.upc.eetac.dsa.jgordo.beeter.api.StingResource;
+
+import edu.upc.eetac.dsa.emeyerson.beeter.api.MediaType;
+import edu.upc.eetac.dsa.emeyerson.beeter.api.StingResource;
  
 public class Sting {
 	@InjectLinks({
