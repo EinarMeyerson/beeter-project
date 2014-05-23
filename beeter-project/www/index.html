@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Beeter Example</title>
+		
+		<!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+		
+		
+	</head>
+	<body>
+	
+	<div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Editar perfil </a></li>
+          <li><a href="#">Buscar</a></li>
+        </ul>
+        <h3 class="text-muted">Usuario: Alicia</h3>
+      </div>
+      </div>
+      
+      <div class="container">
+      <h1></h1>
+      </div>
+      
+      
+	    <div class="container theme-showcase" role="main">
+        <div class="jumbotron">
+        <div class="row">
+        <div class="col-md-8">
+          <h1>BEETER API</h1>
+		  </div>
+		  </div>
+		   </div>
+		  
+		   <div class="alert alert-block alert-info" id="alerta" style="display: none;">
+                 <button id="button-close" type="button" class="close" data-dismiss="alert">&times;</button>
+                     <h4 class="alert-heading">Info</h4>
+                           Debes rellenar el contenido
+                </div>
+		  
+		   </div>
+		  
+		  <div class="container">
+          <!-- Example row of columns -->
+           <div class="row">
+           <div class="col-md-8">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Subject</h3>
+              </div>
+              <div class="panel-body">
+                <input type="text" style="width:400px;"  size="50" id="create-subject"><br>
+              </div>
+              <div class="panel-heading">
+                <h3 class="panel-title">Content</h3>
+              </div>
+              <div class="panel-body">
+                <input type="text" style="width:400px;"  size="50" id="create-content"><br>
+              </div>
+              <div>
+              <button type="button" class="btn btn-success" id="button-create-sting" >Create</button>
+              </div>
+            </div>
+           </div>
+           <div class="col-md-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Links-Stings</h3>
+              </div>
+              <div class="panel-body">
+              <div id="stings-collection">
+            </div>
+            </div>
+             </div>
+           </div>
+            </div>
+            </div>
+          
+      <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+       <div class="col-md-4">
+       <div class="panel panel-default" id="sting-cabecera" style="display: none;">
+              <div class="panel-heading">
+                <h3 class="panel-title">Create Sting</h3>
+              </div>
+              <div class="panel-body">
+		<div id="sting-detail" style="display: none;">
+			<h2 id="subject"></h2>
+			<p id="content"></p>
+			<p id="author" style="font-size:small;"></p>
+			<p id="modified" style="font-size:small;"></p>
+			<a id="back-to-stings"/>Stings<a>
+			<button id="edit-sting"/>Edit</button>
+			<button id="delete-sting"/>Delete</button>
+			</div>
+			</div>
+			</div>
+			</div>
+
+              <div class="panel panel-default" id="edit-sting-form-2" hidden >
+              <div class="panel-heading">
+                <h3 class="panel-title">Insertar datos</h3>
+              </div>
+              <div class="panel-body">
+               <div class="col-md-4">
+			    <form id="edit-sting-form" hidden  >
+				  <label>Subject</label><br>
+				  <input type="text" style="width:400px;"  size="50" id="edit-subject"><br>
+			
+				  <label>Content</label><br>
+				  <textarea rows="4" style="width:400px;"  cols="50" id="edit-content" form="create-sting-form"></textarea><br>
+				  <button id="edit-ok"/>Ok</button>
+				  <button id="edit-cancel"/>Cancel</button>
+			    </form>
+			</div>
+			</div>
+			 </div>
+			 
+                  </div>
+			</div>
+		<!-- Scripts -->
+		<!-- jQuery 1.11.0 development -->
+			
+		<script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+		<!--<script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>-->
+		<!-- link-headers -->
+		<script src="./js/uritemplate.js"></script>
+		<script src="./js/linkheaders.js"></script>
+		<!-- jQuery Base64 plugin -->
+		<script src="./js/jquery.base64.js"></script>
+		<!-- Beeter js -->
+		<script src="./js/api.js"></script>
+		<script src="./js/main.js"></script>
+		
+		
+	</body>
+</html>
